@@ -1,0 +1,475 @@
+<!DOCTYPE HTML>
+<!--
+	Tessellate by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>zeroinon Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/styleset.css" />
+    <link rel="icon" href="images/favicon.png" />
+
+</head>
+
+<body class="is-preload">
+
+    <!-- Navigation Header-->
+    <header id="nav-header">
+        <h1>Mobility zero logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#first"> what is </a></li>
+                <li><a href="#second"> how to </a></li>
+                <li><a href="#third"> case studies</a></li>
+                <li><a href="#fourth"> contact </a></li>
+                <li>
+                    <a href="#fourth"> <span class="language">English page </span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Header -->
+    <section id="header" class="dark">
+        <header>
+
+            <h1>ココソコ </h1>
+            <p>テレプレゼンスチャットアプリ</p>
+
+        </header>
+        <footer>
+            <a href="#first" class="button scrolly">30分間の無料トライアルはこちらから</a>
+        </footer>
+    </section>
+
+    <!--
+    <header id="header">
+
+        <header>
+            <h1> Cocosoco </h1>
+            <p>telepresence chat app</p>
+            <div id="video-area">
+                <video id="video" poster="images/cocosoco.png" webkit-playsinline playsinline muted autoplay loop>
+       -->
+    <!--
+            poster：動画ファイルが利用できない環境で代替表示される画像
+            webkit-playsinline：iOS 9までのSafari用インライン再生指定
+            playsinline：iOS 10以降のSafari用インライン再生指定
+            muted：音声をミュートさせる
+            autoplay：動画を自動再生させる
+            loop：動画をループさせる
+            controls：コントロールバーを表示する
+        -->
+    <!--
+        <source src="images/cocosoco_intro_3gamen.mp4" type="video/mp4">
+      <p>動画を再生できる環境ではありません。</p>
+       -->
+    <!--
+        </video>
+            </div>
+
+        </header>
+
+    </header>
+
+-->
+    <!-- First -->
+    <section id="first" class="main">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-12-narrow">
+                        <h2>ココソコとは</h2>
+                        <p>複数人で中継者の空間映像を共有しながら，指さしアイコンによる指示語利用で空間内を指し示すことができるので，オンラインでも あたかも同じ空間にいるようなコミュニケーションができるテレプレゼンスチャットアプリです．
+                            <br> ブラウザーベースベースなので スマホやPCにアプリケーションをインストールせずにすぐに利用可能です．
+                            <img src="images/cocosocofigure.png" width="60%" style="display:block; margin:auto;" alt="ココソコとは ">
+                        </p>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <img src="images/whatiscocosoco.png" width="120% " alt="ココソコとは ">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content dark style1 featured ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-12 ">
+                        <header>
+                            <h3>ココソコの機能</h3>
+                        </header>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="images/pointing_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>指さし</h3>
+                            </header>
+                            <p>空間映像を共有しながら「ここ」や「そこ」などの指示語を使ったコミュニケーションができます．</p>
+                        </section>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="images/map_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>地図表示</h3>
+                            </header>
+                            <p>空間映像と地図情報を同時に見ながら遠隔地の情報を把握できます．</p>
+                        </section>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="images/zoom_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>ズーム</h3>
+                            </header>
+                            <p>中継している人が画面をズームすると中継映像もズームされます．</p>
+                        </section>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="images/like_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>Like</h3>
+                            </header>
+                            <p>指をさすほどでもない軽い相づちや興味を示す時は画面を長押ししてハートマークのLikeを表示できます．</p>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second -->
+    <section id="second " class="main ">
+        <header>
+            <div class="container ">
+                <h2>ココソコの使い方</h2>
+                <p>ココソコの使い方のマニュアルはこちらからダウンロードしてください．<i class="fas fa-book-open fa-2x "></i> <br> よくある質問(FAQ)についてはこちらにまとめてあります． PCやスマホなどのデバイスごとのココソコの使い方は下記の動画でも確認できます．<br> ココソコ対応デバイスとブラウザは以下の通りです．
+                    <ul>
+                        <li>Macintosh PC: google chrome firefox, safari</li>
+                        <li>Windows PC: google chrome, fireforx, Microsoft edge</li>
+                        <li>iPhone, iPad: safari</li>
+                        <!--  <li style="color:red ">Android: firefox (注意：android端末では外付けイヤホンマイク利用不可）</li> -->
+                    </ul>
+                </p>
+
+                <!--パソコン(mac, windows)，iphone,ipad, android-->
+            </div>
+        </header>
+        <div class="content dark style3 featured ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-12 ">
+                        <section>
+                            <header>
+                                <h3>ココソコの使い方（動画）</h3>
+                            </header>
+                            <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan
+                                vivamus augue cubilia vivamus nisi eu eget ornare varius gravida euismod. Gravida dis lorem ipsum dolor placerat magna tempus feugiat.</p>
+                            <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor.</p>
+
+                        </section>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <iframe width="379 " height="210 " src="https://www.youtube.com/embed/p5HSzg3vtb8 " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                            <p> あああ　</p>
+                        </section>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <img src="images/cocosoco.png " width="80% " alt="ココソコとは "> <br> いいい
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third -->
+    <section id="third " class="main ">
+        <header>
+            <div class="container ">
+                <h2>ココソコ事例</h2>
+                <p>ココソコを使った取り組み事例についての紹介</p>
+                <div class="row ">
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <p> comadoの紹介　</p>
+                            <img src="images/cocosoco.png " width="60% " alt="ココソコとは "><br>
+                        </section>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <p> comadoの紹介　</p>
+                            <img src="images/cocosoco.png " width="60% " alt="ココソコとは "><br>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </section>
+    <!--
+        <div class="content dark style3 ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-4 col-12-narrow ">
+                        <h3>Diam vivamus turpis lorem sodales lectus ornare</h3>
+                        <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
+                            augue cubilia vivamus nisi eu eget ornare varius gravida euismod. Gravida dis lorem ipsum dolor placerat magna tempus feugiat.</p>
+                        <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu eget ornare
+                            varius gravida dolore euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu eget ornare et magna.</p>
+                    </div>
+                    <div class="col-4 col-12-narrow ">
+                        <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
+                            augue cubilia vivamus nisi eu eget ornare varius gravida euismod. Gravida dis lorem ipsum dolor placerat magna tempus feugiat.</p>
+                        <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
+                            Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
+                        <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia.</p>
+                    </div>
+                    <div class="col-4 col-12-narrow ">
+                        <p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue
+                            cubilia vivamus nisi eu eget ornare varius gravida euismod. Gravida dis lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia dolore.</p>
+                        <p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
+                        <footer>
+                            <a href="#fourth " class="button scrolly ">Ipsum ornare lorem dolor</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Basic Elements -->
+    <!--
+			<section class="main ">
+				<header>
+					<div class="container ">
+						<h2>A Whole Lotta Elements</h2>
+						<p>General purpose elements for every general purpose. Or something like that.</p>
+					</div>
+				</header>
+				<div class="content style1 dark ">
+					<div class="container ">
+						<section>
+							<header>
+								<h3>Paragraph</h3>
+								<p>This is a byline</p>
+							</header>
+							<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
+							habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
+							leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
+							amet risus elit.</p>
+						</section>
+						<section>
+							<header>
+								<h3>Blockquote</h3>
+							</header>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+							tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
+							tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
+						</section>
+						<section>
+							<header>
+								<h3>Divider</h3>
+							</header>
+							<p>Donec consectetur <a href="# ">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
+							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+							posuere cubilia.</p>
+							<hr />
+							<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+							posuere cubilia.</p>
+						</section>
+						<section>
+							<header>
+								<h3>Unordered List</h3>
+							</header>
+							<ul class="default ">
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+							</ul>
+						</section>
+						<section>
+							<header>
+								<h3>Ordered List</h3>
+							</header>
+							<ol class="default ">
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+							</ol>
+						</section>
+						<section>
+							<header>
+								<h3>Table</h3>
+							</header>
+							<div class="table-wrapper ">
+								<table class="default ">
+									<thead>
+										<tr>
+											<th>ID</th>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>00001</td>
+											<td>Lorem ipsum dolor</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>00002</td>
+											<td>Sit amet nullam</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>00003</td>
+											<td>Feugiat felis viverra</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>00004</td>
+											<td>Sagittis enim felis</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>00005</td>
+											<td>Nullam sed vestibulum</td>
+											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+											<td>19.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="3 "></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+						<section>
+							<header>
+								<h3>Form</h3>
+							</header>
+							<form method="post " action="# ">
+								<div class="row gtr-50 ">
+									<div class="col-6 col-12-narrow ">
+										<input type="text " name="name " id="name " value=" " placeholder="John Doe " />
+									</div>
+									<div class="col-6 col-12-narrow ">
+										<input type="text " name="email " id="email " value=" " placeholder="johndoe@domain.tld " />
+									</div>
+									<div class="col-12 ">
+										<div class="select " tabindex="-1 ">
+											<select name="department " id="department ">
+												<option value=" ">Choose a department</option>
+												<option value="1 ">Manufacturing</option>
+												<option value="2 ">Administration</option>
+												<option value="3 ">Support</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-12 ">
+										<input type="text " name="subject " id="subject " value=" " placeholder="Enter your subject " />
+									</div>
+									<div class="col-12 ">
+										<textarea name="message " id="message " placeholder="Enter your message "></textarea>
+									</div>
+									<div class="col-12 ">
+										<ul class="actions ">
+											<li><input type="submit " class="button " value="Send Message " /></li>
+											<li><input type="reset " class="button alt " value="Clear Form " /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+					</div>
+				</div>
+			</section>
+		-->
+
+    <!-- Fourth -->
+
+
+    <section id="fourth " class="main ">
+        <div class="content dark style3 featured">
+            <header>
+                <div class="container">
+                    <h3>お問い合わせ</h3>
+                    <p>ココソコについてのお問い合わせは下記のメッセージフォームからお願いいたします．送信完了通知メールを入力頂いたメールアドレスに自動送信させて頂きます．</p>
+                </div>
+            </header>
+
+            <div class="container medium">
+                <form method="post" action="https://script.google.com/macros/s/AKfycbw7xcHZksk4vfEC49gVBJ27G6h82gK1fOGmGr0fCSo9fbtCeas/exec">
+                    <div class="row gtr-50">
+                        <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+                        <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+                        <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li><input type="submit" class="button" value="Send Message" /></li>
+                                <li><input type="reset" class="button alt" value="Clear Form" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+        <div class="copyright">
+            <ul class="menu">
+                <li>&copy; zeroinon. All rights reserved.</li>
+                <li> <a href="http://html5up.net">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js "></script>
+    <script src="assets/js/jquery.scrolly.min.js "></script>
+    <script src="assets/js/browser.min.js "></script>
+    <script src="assets/js/breakpoints.min.js "></script>
+    <script src="assets/js/util.js "></script>
+    <script src="assets/js/main.js "></script>
+
+</body>
+
+</html>
