@@ -1889,7 +1889,7 @@ table.default {
 }
 
 table.default tbody tr {
-    border: solid 1px #e6e6e6;
+    border: solid 1px #ffffff;
 }
 
 table.default tbody tr:nth-child(2n+2) {
@@ -1898,11 +1898,13 @@ table.default tbody tr:nth-child(2n+2) {
 
 table.default td {
     padding: 0.5em 1em 0.5em 1em;
+    border: solid 1px #ffffff;
 }
 
 table.default th {
     text-align: left;
     padding: 0.5em 1em 1em 1em;
+    font-weight: bold;
 }
 
 table.default tfoot td {
