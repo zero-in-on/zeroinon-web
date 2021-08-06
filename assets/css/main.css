@@ -2194,7 +2194,7 @@ button.alt:hover,
     height: 2.5em;
     line-height: 2.5em;
     cursor: default;
-    background-image: url(../../images/zeroinon_logo.svg);
+    /* background-image: url(../../images/zeroinon_logo.svg); */
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
