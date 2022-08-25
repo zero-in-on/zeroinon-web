@@ -13,31 +13,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="../assets/css/styleset.css" />
-    <!--   <link rel="icon" href="../images/favicon.png" /> -->
+    <link rel="icon" href="../images/favicon.svg" type="any" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/fb.css" />
 
 </head>
+
+
 
 <body class="is-preload">
 
     <!-- Navigation Header-->
     <header id="nav-header">
         <a href="#header">
-            <h1>zeroinon logo</h1>
+            <!-- <h1>zeroinon logo</h1>-->
+            <img src="../images/logo.svg" class="style">
         </a>
-        <nav>
+        <div class="nav" id="myTopnav">
             <ul>
-                <li><a href="#first"> what is </a></li>
-                <li><a href="#second"> how to </a></li>
-                <li><a href="../company-profile.html"> Company profile(Japanese)</a></li>
-                <li><a href="#fourth"> contact </a></li>
-                <li><a href="../index.html"><span class="language">Japanese page </span></a></li>
+                <li><a href="#first"> About </a></li>
+                <li><a href="#second"> Works </a></li>
+                <li><a href="#third"> News</a></li>
+                <li><a href="./company-profile.html"> Company profile</a></li>
+                <li><a href="#fourth"> Contact </a></li>
+                <!--  <li><a href="./en/index.html"><span class="language">English page </span></a></li> -->
             </ul>
-        </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars fa-2x"></i></a>
+
+        </div>
     </header>
 
 
     <!-- Header -->
     <section id="header" class="dark">
+
+        <h1> <strong> zero in on telepresence for coming xR society</strong></h1>
+        <!--        <p>クロスリアリティ社会のテレプレゼンスコミュニケーションプラットフォーム</p>  -->
+
+
 
     </section>
 
@@ -46,74 +59,68 @@
     <section id="first" class="main">
         <header>
             <div class="container">
-                <div class="row">
-                    <div class="col-6 col-12-narrow">
-                        <h2>What is cocosoco</h2>
-                        <p>cocosoco is a video chat app whose name translates to “here and there” in English.
-                            <br> In this app, there is a pointing function, which can be used to point to a space with demonstrative words, which is not possible in a conventional video chat app. It is designed to make it easier to share a space to encourage
-                            dialogue, even online, and to increase the sense of presence as if we were chatting in the same physical place.
-                            <br>
-                            <br>
+                <p>
+                    社名のzeroinon(ゼロイノン）は英語の熟語，zero in on （集中する，的を絞る）の造語です． 社名には，新型コロナウイルスの影響も後押しして，DXに代表されるITを前提とした社会基盤が必至となった現在，リアルとバーチャルが融合するテレプレゼンス基盤の構築を目指す，’zero in on telepresence for coming xR society’ という意味を込めています．
+                </p>
+                <p>
+                    テレプレゼンスとは技術的には地理的に離れた場所に対して，利用者があたかもその場にいるように感じさせることを目指す技術と定義され，異なる地点にいる利用者が同一の空間にいるような環境を作り出すことでその場に行かずとも遠隔で円滑なコミュニケーションができることを利点としています． 古くは電話の発明も通話者同志が同じ場にいるかのように双方向で音声コミュニケーションができることを実現したテレプレゼンスツールであるといえます．
+                </p>
 
-                            <img src="../images/cocosocofigure.png" width="60%" style="display:block; margin:auto;" alt="ココソコとは ">
-                        </p>
-                    </div>
-                    <div class="col-6 col-12-narrow ">
-                        <br>
-                        <br>
-                        <section id="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RW6bOKuCoSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </section>
-                        <img src="../images/whatiscocosoco-2.png" width="100%" alt="what is cocosoco">
-                    </div>
-                </div>
+                <p>
+                    zeroinonは，パソコンやスマートフォンなど、その時代に多くの人が使うデバイスをベースに，誰もがストレスなく利用できるアクセシビリティの高いインタフェースを持つ，リアルとバーチャルが融合するxR(クロスリアリティ)な社会インフラとして高い体験価値が得られるテレプレゼンスプラットフォームの実現を目指しています． <br>これまでは人が動くことで価値を生み出し経済が成り立ってきましたが，移動がゼロであっても経済効果を生み出すテレプレゼンス基盤を作ることで，子育て中の方や高齢で外出が以前よりも自由にできなくなった方でも社会参加する機会をネットワーク上に作ることを社会使命と考えています．
+                </p>
+
             </div>
         </header>
 
-        <div class="content dark style1 featured ">
+        <div id="second" class="content dark style5 featured ">
             <div class="container ">
                 <div class="row ">
                     <div class="col-12 ">
                         <header>
-                            <h3>Features of cocosoco</h3>
+                            <h3>Works by zeroinon</h3>
                         </header>
                     </div>
-                    <div class="col-3 col-12-narrow ">
+                    <div class="col-4 col-12-narrow ">
                         <section>
-                            <span class="feature-icon "><img src="../images/pointing_feature.png " width="100% " alt="ココソコとは "></span>
+                            <span class="feature-icon "><a href="./cocosoco.html"><img src="../images/pointing_feature.png " width="100% " alt="ココソコとは "></a></span>
                             <header>
-                                <h3>Pointing</h3>
+                                <h3>ここそこ</h3>
                             </header>
-                            <p>You can communicate using demonstrative words such as "here" and "there" while sharing a space.</p>
+                            <p>誰でもすぐ使えるテレプレゼンスチャットツールとして，指差しアイコンを使って「ここ」や「そこ」などオンラインビデオ画面上に指差ししながら会話ができる「ここそこ」をコロナ禍でのオンラインビデオ会議体験向上のために2020年5月にプロトタイプを作りました．</p>
+                            <ul class="actions special">
+                                <li> <a href="./cocosoco.html" class="button">ここそこについて</a></li>
+                            </ul>
                         </section>
                     </div>
-                    <div class="col-3 col-12-narrow ">
+                    <div class="col-4 col-12-narrow ">
                         <section>
-                            <span class="feature-icon "><img src="../images/map_feature.png " width="100% " alt="ココソコとは "></span>
+                            <span class="feature-icon "><img src="../images/comado.png " width="100% " alt="CoMADO "></span>
                             <header>
-                                <h3>Map Display</h3>
+                                <h3>CoMADO beta</h3>
                             </header>
-                            <p>Sharing a live stream and location map at the same time provides a subjective viewpoint and a bird’s-eye view.</p>
+                            <p>「ここそこ」をベースに，サービスデザインコンサルティングのACTANTさんと協働でオンラインのデザインリサーチツールCoMADOの開発をはじめました．<br> 現在β版で実証実験中です．2022年夏以降に本サービスのローンチを予定しています．
+                                <ul class="actions special">
+                                    <li> <a href="https://comado.co" class="button">CoMADOティザーサイト<br>（外部リンク）</a></li>
+
+                                </ul>
+                            </p>
                         </section>
                     </div>
-                    <div class="col-3 col-12-narrow ">
+                    <div class="col-4 col-12-narrow ">
                         <section>
-                            <span class="feature-icon "><img src="../images/zoom_feature.png " width="100% " alt="ココソコとは "></span>
+                            <span class="feature-icon "><img src="../images/mob0cocosoco.png " width="100% " alt="TPP "></span>
                             <header>
-                                <h3>Zoom</h3>
+                                <h3>テレプレゼンスプラットフォーム(TPP)</h3>
                             </header>
-                            <p>When a presenter who shares a live stream zooms the screen by pinching out, the live stream video is also zoomed.</p>
+                            <p>東京大学先端科学技術研究センターで2020年10月から開設した新しい時代のモビリティ（＝空間の移動）を，ゼロに立ち返り研究を行う社会連携研究部門「モビリティゼロ」で， 「ここそこ」をベースにした新しい空間サービスの開発を行なっています．
+                            </p>
+                            <ul class="actions special">
+                                <li> <a href="https://www.rcast.u-tokyo.ac.jp/ja/news/report/20201001.html" class="button">モビリティーゼロプロジェクト<br>(外部リンク）</a></li>
+                            </ul>
                         </section>
                     </div>
-                    <div class="col-3 col-12-narrow ">
-                        <section>
-                            <span class="feature-icon "><img src="../images/like_feature.png " width="100% " alt="ココソコとは "></span>
-                            <header>
-                                <h3>Like</h3>
-                            </header>
-                            <p>Long-pressing the display shows a heart mark to indicate “like” or “Uh-huh” as a reaction.</p>
-                        </section>
-                    </div>
+
 
                 </div>
             </div>
@@ -121,99 +128,41 @@
     </section>
 
     <!-- Second -->
-    <section id="second" class="main">
+    <section id="third" class="main">
         <header>
             <div class="container ">
-                <h2>How to use cocosoco</h2>
+                <h2>News in zeroinon</h2>
                 <p>
-                    We will soon upload the cocosoco manual.
+                    Facebook pageにニュース，イベント情報を掲載しています．
                 </p>
-                <!--   <p>Please download the cocosoco manual here. <i class="fas fa-book-open fa-2x "></i> <br> If you have any trouble using cocosoco, please reger to the Frequently Asked Questions first. If your question has not already been answered, please
-                    contact us via the contact form. -->
-                <br> cocosoco corresponding devices and browsers for a client
-                <ul>
-                    <li>Macintosh PC: (up-to-date) google chrome firefox, safari</li>
-                    <li>Windows PC: (up-to-date) google chrome, fireforx, Microsoft edge</li>
-                    <li>iPhone, iPad: (up-to-date) safari</li>
-                    <br> * A headphone with a microphone will give you a better experience of communicating online.
-                    <br> * For a better experience as a cocosoco client, you need a high-speed internet connection of 5Mbps of download speed or better. Before using cocosoco, please make sure of your network environment. You can search “test my speed”
-                    online to find your speed or <a href="https://www.highspeedinternet.com/tools/speed-test" style="color:blue"> click here to jump to
-                   HighspeedInternet.com to start speed test.</a>
-
-                    <!--  <li style="color:red ">Android: firefox (注意：android端末では外付けイヤホンマイク利用不可）</li> -->
-                </ul>
+                <br>
+                <center>
+                    <div class="fb-page" data-href="https://www.facebook.com/zeroinon.inc" data-tabs="timeline" data-width="500" data-height="380" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/zeroinon.inc" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/zeroinon.inc">zeroinon Inc.</a></blockquote>
+                    </div>
+                </center>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v12.0" nonce="mnCLY1PW"></script>
 
             </div>
         </header>
-        <!--     <div class="content dark style3 featured ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-12 ">
-                        <section>
-                            <header>
-                                <h3>ココソコの使い方（動画）</h3>
-                            </header>
-                            <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan
-                                vivamus augue cubilia vivamus nisi eu eget ornare varius gravida euismod. Gravida dis lorem ipsum dolor placerat magna tempus feugiat.</p>
-                            <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor.</p>
-
-                        </section>
-                    </div>
-                    <div class="col-6 col-12-narrow ">
-                        <section>
-                            <iframe width="379 " height="210 " src="https://www.youtube.com/embed/p5HSzg3vtb8 " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                            <p> あああ　</p>
-                        </section>
-                    </div>
-                    <div class="col-6 col-12-narrow ">
-                        <section>
-                            <img src="images/cocosoco.png " width="80% " alt="ココソコとは "> <br> いいい
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </section>
 
-    <!-- Third -->
-    <!--  <section id="third" class="main">
-        <header>
-            <div class="container ">
-                <h2>ココソコ事例</h2>
-                <p>ココソコを使った取り組み事例についての紹介</p>
-                <div class="row ">
-                    <div class="col-6 col-12-narrow ">
-                        <section>
-                            <p> comadoの紹介　</p>
-                            <img src="images/cocosoco.png " width="60% " alt="ココソコとは "><br>
-                        </section>
-                    </div>
-                    <div class="col-6 col-12-narrow ">
-                        <section>
-                            <p> comadoの紹介　</p>
-                            <img src="images/cocosoco.png " width="60% " alt="ココソコとは "><br>
-                        </section>
-                    </div>
-
-                </div>
-            </div>
-        </header>
-    </section> -->
 
     <!-- Fourth -->
     <section id="fourth" class="main">
-        <div class="content dark style3 featured">
+        <div class="content dark style1 featured">
             <header>
                 <div class="container">
                     <h3>Contact</h3>
-                    <p>For inquiries about cocosoco, please reach us from the contact form below. Auto reply email will be sent to you when your email reached us. And later we will write back to you as soon as possible.
+                    <p>zeroinonへのお問い合わせは下記のコンタクトフォームよりお願いいたします．コンタクトフォーム送信確認のため，送信後すぐにオートメールで入力頂いたEmailに連絡が入ります．
                     </p>
 
                 </div>
             </header>
 
             <div class="container medium">
-                <form method="post" action="https://script.google.com/macros/s/AKfycbzN2frzN-ChTZlPb7MYvayvGALLLuMmmS1nFJEM83fVP6yp9lR5Mr56V-13BEwcdBoMNg/exec">
+                <form method="post" action="https://script.google.com/macros/s/AKfycbztdHbyzJmgbj9SYgEBL9XE5FfjGF_PppQwilGXC-YlcA8cdBLojG0Tk_dh7wppc7go/exec">
                     <div class="row gtr-50">
                         <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
                         <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -243,7 +192,7 @@
         <div class="copyright">
             <ul class="menu">
                 <li>&copy; zeroinon. All rights reserved.</li>
-                <li> <a href="../privacy/index.html">Privacy Policy</a></li>
+                <li> <a href="./privacy/index.html">Privacy Policy</a></li>
             </ul>
         </div>
     </section>
