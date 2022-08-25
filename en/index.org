@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<!--
+	I used the template files.
+    Tessellate by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>zeroinon Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/styleset.css" />
+    <!--   <link rel="icon" href="../images/favicon.png" /> -->
+
+</head>
+
+<body class="is-preload">
+
+    <!-- Navigation Header-->
+    <header id="nav-header">
+        <a href="#header">
+            <h1>zeroinon logo</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#first"> what is </a></li>
+                <li><a href="#second"> how to </a></li>
+                <li><a href="../company-profile.html"> Company profile(Japanese)</a></li>
+                <li><a href="#fourth"> contact </a></li>
+                <li><a href="../index.html"><span class="language">Japanese page </span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Header -->
+    <section id="header" class="dark">
+
+    </section>
+
+
+    <!-- First -->
+    <section id="first" class="main">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-12-narrow">
+                        <h2>What is cocosoco</h2>
+                        <p>cocosoco is a video chat app whose name translates to “here and there” in English.
+                            <br> In this app, there is a pointing function, which can be used to point to a space with demonstrative words, which is not possible in a conventional video chat app. It is designed to make it easier to share a space to encourage
+                            dialogue, even online, and to increase the sense of presence as if we were chatting in the same physical place.
+                            <br>
+                            <br>
+
+                            <img src="../images/cocosocofigure.png" width="60%" style="display:block; margin:auto;" alt="ココソコとは ">
+                        </p>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <br>
+                        <br>
+                        <section id="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RW6bOKuCoSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </section>
+                        <img src="../images/whatiscocosoco-2.png" width="100%" alt="what is cocosoco">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content dark style1 featured ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-12 ">
+                        <header>
+                            <h3>Features of cocosoco</h3>
+                        </header>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="../images/pointing_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>Pointing</h3>
+                            </header>
+                            <p>You can communicate using demonstrative words such as "here" and "there" while sharing a space.</p>
+                        </section>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="../images/map_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>Map Display</h3>
+                            </header>
+                            <p>Sharing a live stream and location map at the same time provides a subjective viewpoint and a bird’s-eye view.</p>
+                        </section>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="../images/zoom_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>Zoom</h3>
+                            </header>
+                            <p>When a presenter who shares a live stream zooms the screen by pinching out, the live stream video is also zoomed.</p>
+                        </section>
+                    </div>
+                    <div class="col-3 col-12-narrow ">
+                        <section>
+                            <span class="feature-icon "><img src="../images/like_feature.png " width="100% " alt="ココソコとは "></span>
+                            <header>
+                                <h3>Like</h3>
+                            </header>
+                            <p>Long-pressing the display shows a heart mark to indicate “like” or “Uh-huh” as a reaction.</p>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second -->
+    <section id="second" class="main">
+        <header>
+            <div class="container ">
+                <h2>How to use cocosoco</h2>
+                <p>
+                    We will soon upload the cocosoco manual.
+                </p>
+                <!--   <p>Please download the cocosoco manual here. <i class="fas fa-book-open fa-2x "></i> <br> If you have any trouble using cocosoco, please reger to the Frequently Asked Questions first. If your question has not already been answered, please
+                    contact us via the contact form. -->
+                <br> cocosoco corresponding devices and browsers for a client
+                <ul>
+                    <li>Macintosh PC: (up-to-date) google chrome firefox, safari</li>
+                    <li>Windows PC: (up-to-date) google chrome, fireforx, Microsoft edge</li>
+                    <li>iPhone, iPad: (up-to-date) safari</li>
+                    <br> * A headphone with a microphone will give you a better experience of communicating online.
+                    <br> * For a better experience as a cocosoco client, you need a high-speed internet connection of 5Mbps of download speed or better. Before using cocosoco, please make sure of your network environment. You can search “test my speed”
+                    online to find your speed or <a href="https://www.highspeedinternet.com/tools/speed-test" style="color:blue"> click here to jump to
+                   HighspeedInternet.com to start speed test.</a>
+
+                    <!--  <li style="color:red ">Android: firefox (注意：android端末では外付けイヤホンマイク利用不可）</li> -->
+                </ul>
+
+            </div>
+        </header>
+        <!--     <div class="content dark style3 featured ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-12 ">
+                        <section>
+                            <header>
+                                <h3>ココソコの使い方（動画）</h3>
+                            </header>
+                            <p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan
+                                vivamus augue cubilia vivamus nisi eu eget ornare varius gravida euismod. Gravida dis lorem ipsum dolor placerat magna tempus feugiat.</p>
+                            <p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor.</p>
+
+                        </section>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <iframe width="379 " height="210 " src="https://www.youtube.com/embed/p5HSzg3vtb8 " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                            <p> あああ　</p>
+                        </section>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <img src="images/cocosoco.png " width="80% " alt="ココソコとは "> <br> いいい
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Third -->
+    <!--  <section id="third" class="main">
+        <header>
+            <div class="container ">
+                <h2>ココソコ事例</h2>
+                <p>ココソコを使った取り組み事例についての紹介</p>
+                <div class="row ">
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <p> comadoの紹介　</p>
+                            <img src="images/cocosoco.png " width="60% " alt="ココソコとは "><br>
+                        </section>
+                    </div>
+                    <div class="col-6 col-12-narrow ">
+                        <section>
+                            <p> comadoの紹介　</p>
+                            <img src="images/cocosoco.png " width="60% " alt="ココソコとは "><br>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </section> -->
+
+    <!-- Fourth -->
+    <section id="fourth" class="main">
+        <div class="content dark style3 featured">
+            <header>
+                <div class="container">
+                    <h3>Contact</h3>
+                    <p>For inquiries about cocosoco, please reach us from the contact form below. Auto reply email will be sent to you when your email reached us. And later we will write back to you as soon as possible.
+                    </p>
+
+                </div>
+            </header>
+
+            <div class="container medium">
+                <form method="post" action="https://script.google.com/macros/s/AKfycbzN2frzN-ChTZlPb7MYvayvGALLLuMmmS1nFJEM83fVP6yp9lR5Mr56V-13BEwcdBoMNg/exec">
+                    <div class="row gtr-50">
+                        <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+                        <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+                        <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li><input type="submit" class="button" value="Send Message" /></li>
+                                <li><input type="reset" class="button alt" value="Clear Form" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <!--        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul> -->
+        <div class="copyright">
+            <ul class="menu">
+                <li>&copy; zeroinon. All rights reserved.</li>
+                <li> <a href="../privacy/index.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js "></script>
+    <script src="../assets/js/jquery.scrolly.min.js "></script>
+    <script src="../assets/js/browser.min.js "></script>
+    <script src="../assets/js/breakpoints.min.js "></script>
+    <script src="../assets/js/util.js "></script>
+    <script src="../assets/js/main.js "></script>
+
+</body>
+
+</html>

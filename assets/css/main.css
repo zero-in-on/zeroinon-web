@@ -2310,6 +2310,7 @@ button.alt:hover,
     padding: 0;
     text-align: justify;
     white-space: pre-line;
+    word-wrap: break-word;
 }
 
 .main>.content {
