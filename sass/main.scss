@@ -14,10 +14,10 @@
 */
 
 // Breakpoints.
-@include breakpoints(( wide : ( 1281px, 1680px),
-normal : ( 1001px, 1280px),
-narrow : ( 737px, 1000px),
-mobile : ( null, 736px)));
+@include breakpoints(( wide: ( 1281px, 1680px),
+normal: ( 1001px, 1280px),
+narrow: ( 737px, 1000px),
+mobile: ( null, 736px)));
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 html,
@@ -742,19 +742,19 @@ form {
             display: none;
         }
     }
-    ::-moz-focus-inner {
+     ::-moz-focus-inner {
         border: 0;
     }
-    ::-webkit-input-placeholder {
+     ::-webkit-input-placeholder {
         color: #aaa !important;
     }
-    :-moz-placeholder {
+     :-moz-placeholder {
         color: #555 !important;
     }
-    ::-moz-placeholder {
+     ::-moz-placeholder {
         color: #555 !important;
     }
-    :-ms-input-placeholder {
+     :-ms-input-placeholder {
         color: #555 !important;
     }
 }
@@ -785,16 +785,16 @@ form {
             color: #aaa !important;
             color: rgba(255, 255, 255, 0.85) !important;
         }
-        ::-webkit-input-placeholder {
+         ::-webkit-input-placeholder {
             color: rgba(255, 255, 255, 0.85) !important;
         }
-        :-moz-placeholder {
+         :-moz-placeholder {
             color: rgba(255, 255, 255, 0.85) !important;
         }
-        ::-moz-placeholder {
+         ::-moz-placeholder {
             color: rgba(255, 255, 255, 0.85) !important;
         }
-        :-ms-input-placeholder {
+         :-ms-input-placeholder {
             color: rgba(255, 255, 255, 0.85) !important;
         }
     }
@@ -996,7 +996,7 @@ button,
     background-repeat: repeat, no-repeat;
     padding: 14em 0 14em 0;
     text-align: center;
-    color: #fff;
+    color: white;
     header {
         h1 {
             font-size: 2.25em;
