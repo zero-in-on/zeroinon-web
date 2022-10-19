@@ -31,8 +31,6 @@
 
 </head>
 
-
-
 <body class="is-preload">
 
     <!-- Navigation Header-->
@@ -115,7 +113,7 @@
                             </header>
                             <p>「ここそこ」をベースに，サービスデザインコンサルティングのACTANTさんと協働でオンラインのオンラインデザインリサーチツールCoMADOの開発をはじめました．<br> 現在β版で実証実験中です．2022年10月1日に本サービスのローンチを予定しています．
                                 <ul class="actions special">
-                                    <li> <a href="https://comado.co" class="button">CoMADOティザーサイト<br>（外部リンク）</a></li>
+                                    <li> <a href="https://comado.co" class="button">CoMADOサイト<br>（外部リンク）</a></li>
 
                                 </ul>
                             </p>
@@ -176,6 +174,19 @@
             </header>
 
             <div class="container medium">
+                <script src="https://www.google.com/recaptcha/api.js?render=6LcGF5EiAAAAAFlSW6JGEMCsPeUAX_SxPAueK1N1"></script>
+                <script>
+                    grecaptcha.ready(function() {
+                        grecaptcha.execute('6LcGF5EiAAAAAFlSW6JGEMCsPeUAX_SxPAueK1N1', {
+                            action: 'submit',
+                            hostname: 'zeroinon'
+                        }).then(function(token) {
+                            var recaptchaResponse = document.getElementById('g-recaptcha-response');
+                            recaptchaResponse.value = token;
+                        });
+                    });
+                </script>
+
                 <form method="post" action="https://script.google.com/macros/s/AKfycbztdHbyzJmgbj9SYgEBL9XE5FfjGF_PppQwilGXC-YlcA8cdBLojG0Tk_dh7wppc7go/exec">
                     <div class="row gtr-50">
                         <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
@@ -183,6 +194,7 @@
                         <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
                         <div class="col-12">
                             <ul class="actions special">
+                                <li><input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response"></li>
                                 <li><input type="submit" class="button" value="Send Message" /></li>
                                 <li><input type="reset" class="button alt" value="Clear Form" /></li>
                             </ul>
