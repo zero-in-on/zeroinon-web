@@ -182,19 +182,19 @@
                         }).then(function(token) {
                             var recaptchaResponse = document.getElementById('g-recaptcha-response');
                             recaptchaResponse.value = token;
-                            console.log('recap')
                         });
                     });
                 </script>
+
 
                 <form method="post" action="https://script.google.com/macros/s/AKfycbzN2frzN-ChTZlPb7MYvayvGALLLuMmmS1nFJEM83fVP6yp9lR5Mr56V-13BEwcdBoMNg/exec">
                     <div class="row gtr-50">
                         <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
                         <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
                         <div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
+                        <div class="col-12"><input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response"></div>
                         <div class="col-12">
                             <ul class="actions special">
-                                <li><input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response"></li>
                                 <li><input type="submit" class="button" value="Send Message" /></li>
                                 <li><input type="reset" class="button alt" value="Clear Form" /></li>
                             </ul>
