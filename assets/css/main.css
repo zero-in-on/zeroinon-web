@@ -1725,6 +1725,7 @@ form label {
 
 form input[type="text"],
 form input[type="email"],
+form input[type="hidden"],
 form input[type="password"],
 form select,
 form .select,
@@ -1759,6 +1760,7 @@ form textarea:focus {
 
 form input[type="text"],
 form input[type="email"],
+form input[type="hidden"],
 form input[type="password"],
 form select {
     line-height: 1.25em;
@@ -1834,6 +1836,7 @@ form :-ms-input-placeholder {
 
 .dark form input[type="text"],
 .dark form input[type="email"],
+.dark form input[type="hidden"],
 .dark form input[type="password"],
 .dark form select,
 .dark form .select,
