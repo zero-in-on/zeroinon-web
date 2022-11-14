@@ -26,4 +26,5 @@ Credits:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 
-this is a test to merge.
+Hello, this is a test for fishnsand.
+
