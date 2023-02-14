@@ -1,10 +1,10 @@
 /*
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Tessellate by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+(function ($) {
 
     var $window = $(window),
         $body = $('body');
@@ -18,21 +18,27 @@
     });
 
     // Play initial animations on page load.
-    $window.on('load', function() {
-        window.setTimeout(function() {
+    $window.on('load', function () {
+        window.setTimeout(function () {
             $body.removeClass('is-preload');
         }, 100);
+
+       
+
     });
 
     // Scrolly.
     $('.scrolly').scrolly();
+
+
+
 
 })(jQuery);
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "nav") {
-        x.className += " responsive";
+        x.className += "responsive";
     } else {
         x.className = "nav";
     }
