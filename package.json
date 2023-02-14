@@ -1,0 +1,19 @@
+{
+  "name": "zeroinon-web",
+  "version": "1.0.0",
+  "description": "zeroinon web site uses Tesellate by HTML5 UP as a template files.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero-in-on/zeroinon-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zero-in-on/zeroinon-web/issues"
+  },
+  "homepage": "https://github.com/zero-in-on/zeroinon-web#readme"
+}
