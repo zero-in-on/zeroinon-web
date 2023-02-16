@@ -2243,7 +2243,7 @@ button.alt:hover,
         width: 23%;
         height: auto;
     }
-    #nav-header nav.responsice h1 a {
+    #nav-header nav.responsive h1 a {
         font-size: 1em;
     }
     .nav ul {
@@ -2269,7 +2269,7 @@ button.alt:hover,
         display: flex;
         flex-direction: column;
         /* 縦に並べる */
-        text-align: left;
+        text-align: right;
         list-style-type: none;
         text-transform: uppercase;
         padding: 0 3.5em;
@@ -2474,7 +2474,7 @@ button.alt:hover,
     }
     .main>header h2 {
         font-size: 1.85em;
-        text-align: center;
+        text-align: right;
     }
     .main>header br {
         display: none;

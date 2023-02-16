@@ -4,6 +4,7 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 (function ($) {
 
     var $window = $(window),
@@ -23,10 +24,9 @@
             $body.removeClass('is-preload');
         }, 100);
 
-       
-
     });
 
+ 
     // Scrolly.
     $('.scrolly').scrolly();
 
@@ -38,8 +38,10 @@
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "nav") {
-        x.className += "responsive";
+        x.className += " responsive";
     } else {
         x.className = "nav";
     }
+
 }
+
