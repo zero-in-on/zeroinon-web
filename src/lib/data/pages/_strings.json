@@ -1,0 +1,86 @@
+{
+  "ja": {
+    "header": {
+      "links": [
+        {
+          "label": "ゼロイノン",
+          "url": "/ja#intro"
+        },
+        {
+          "label": "Works",
+          "url": "/ja#works"
+        },
+        {
+          "label": "News",
+          "url": "/ja#news"
+        },
+        {
+          "label": "会社概要",
+          "url": "/ja/about"
+        },
+        {
+          "label": "お問い合わせ",
+          "url": "/ja#contact"
+        }
+      ],
+      "backToHome": {
+        "label": "ホームへ戻る"
+      }
+    },
+    "globalMeta": {
+      "siteName": "zeroinon",
+      "siteLogo": "/images/logo.svg",
+      "copyright": "© zeroinon. All rights reserved."
+    },
+    "footer": {
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "url": "/ja/privacy"
+        }
+      ]
+    }
+  },
+  "en": {
+    "header": {
+      "links": [
+        {
+          "label": "About",
+          "url": "/en#intro"
+        },
+        {
+          "label": "Works",
+          "url": "/en#works"
+        },
+        {
+          "label": "News",
+          "url": "/en#news"
+        },
+        {
+          "label": "Company profile",
+          "url": "/en/about"
+        },
+        {
+          "label": "Contact",
+          "url": "/en#contact"
+        }
+      ],
+      "backToHome": {
+        "label": "Back to home"
+      }
+    },
+    "globalMeta": {
+      "siteLogo": "/images/logo.svg",
+      "copyright": "© zeroinon. All rights reserved.",
+      "siteName": "zeroinon"
+    },
+    "footer": {
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "url": "/en/privacy"
+        }
+      ]
+    }
+  }
+}

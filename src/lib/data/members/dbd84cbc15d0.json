@@ -1,0 +1,15 @@
+{
+  "ja": {
+    "name": "赤塚大典（Daisuke Akatsuka）",
+    "jobTitle": "取締役副社長 / CTO",
+    "description": "都立航空工業高等専門学校在籍中から 4 輪レーサーを目指すも断念.蕎麦屋,溶接屋を経てプログラマになる.2003 年 IPA 未踏ユース（スーパークリエイタ）,2006 年 IPA 未踏ソフトウェア創造事業に採択.2011 年慶應義塾大学大学院政策・メディア研究科修了.\n\n現在は（株）Birchill に所属し,ウェブブラウザ Firefox の特に Search module および Developer Tools の開発に従事.2021年（株）zeroinon設立．グッドデザイン賞（2008年、2014年）,慶應義塾大学政策・メディア研究科相磯賞（2011 年）,ワークショップコレクション最優秀賞（2015 年）など受賞.",
+    "image": "/images/akatsuka.jpg",
+    "sortKey": 999
+  },
+  "en": {
+    "name": "Daisuke Akatsuka",
+    "jobTitle": "Executive vice-president/CTO",
+    "image": "/images/akatsuka.jpg",
+    "sortKey": 999
+  }
+}

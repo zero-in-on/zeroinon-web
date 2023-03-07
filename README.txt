@@ -1,4 +1,4 @@
-zeroinon web site uses Tesellate by HTML5 UP as a template files.
+zeroinon web site uses Tessellate by HTML5 UP as a template files.
 
 
 
@@ -25,6 +25,3 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
-
-Hello, this is a test for fishnsand.
-

@@ -1,0 +1,22 @@
+{
+  "ja": {
+    "image": "/images/pointing_feature.png",
+    "name": "ここそこ",
+    "description": "コロナ禍での空間型オンラインビデオ会議体験向上のために2020年5月にプロトタイプを作りました．特別な機器が不要なテレプレゼンスチャットツールとして，その場に行かずに遠隔地の人と現場を確認しながらの仕事がスムーズに行えるツールです．",
+    "link": {
+      "url": "/ja/cocosoco",
+      "label": "ここそこについて"
+    },
+    "sortKey": 1000
+  },
+  "en": {
+    "image": "/images/pointing_feature.png",
+    "name": "cocosoco",
+    "description": "In May 2020, we developed a telepresence chat tool 'cocosoco' that allows users to talk using pointing icon. This improves the online videoconferencing experience at Corona Disaster.",
+    "link": {
+      "url": "/en/cocosoco",
+      "label": "About cocosoco"
+    },
+    "sortKey": 1000
+  }
+}
