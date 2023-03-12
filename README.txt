@@ -1,4 +1,4 @@
-zeroinon web site uses Tessellate by HTML5 UP as a template files.
+zeroinon web site uses Tessellate by HTML5 UP as a template files, built with SvelteKit.
 
 
 
