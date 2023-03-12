@@ -1,0 +1,22 @@
+{
+  "ja": {
+    "image": "/images/comado.png",
+    "name": "CoMADO",
+    "description": "「ここそこ」をベースに，サービスデザインコンサルティングのACTANTさんと協働でオンラインのオンラインデザインリサーチツールCoMADOの開発をしました．googleのアカウントとオンラインホワイトボードMiroのアカウントがあればどなたでも無料で始められます．",
+    "link": {
+      "url": "https://comado.co/",
+      "label": "CoMADOサイト（外部リンク）"
+    },
+    "sortKey": 999
+  },
+  "en": {
+    "image": "/images/comado.png",
+    "name": "CoMADO",
+    "description": "We developed CoMADO, an online design research tool based on 'cocosoco.' CoMADO was launched in 2022 in business partnership with ACTANT. Anyone with a google account and an online whiteboard Miro account start it for free.",
+    "link": {
+      "url": "https://comado.co/",
+      "label": "CoMADO site (external link)"
+    },
+    "sortKey": 999
+  }
+}

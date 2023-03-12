@@ -1,0 +1,656 @@
+backend:
+  name: github
+  repo: zero-in-on/zeroinon-web
+  branch: main
+  squash_merges: true
+
+media_folder: static/images
+public_folder: /images
+
+locale: ja
+
+i18n:
+  structure: single_file
+  locales: [ja, en]
+
+collections:
+  - name: members
+    label: メンバー
+    create: true
+    icon: new_releases
+    folder: src/lib/data/members/
+    slug: '{{uuid_short}}'
+    extension: json
+    i18n: true
+    summary: '{{name}}'
+    fields:
+      - name: image
+        label: 写真
+        widget: image
+        i18n: duplicate
+        required: false
+      - name: name
+        label: 名前
+        widget: string
+        i18n: true
+      - name: jobTitle
+        label: タイトル
+        widget: string
+        i18n: true
+      - name: links
+        label: リンク
+        widget: list
+        i18n: duplicate
+        required: false
+        fields:
+          - name: url
+            label: URL
+            widget: string
+            i18n: duplicate
+          - name: label
+            label: ラベル
+            widget: string
+            i18n: true
+      - name: description
+        label: プロフィール
+        widget: markdown
+        i18n: true
+        required: false
+      - name: sortKey
+        label: ソートキー
+        widget: number
+        i18n: duplicate
+        required: false
+        value_type: int
+        min: 0
+        default: 0
+  - name: works
+    label: プロジェクト
+    create: true
+    icon: new_releases
+    folder: src/lib/data/projects/
+    slug: '{{uuid_short}}'
+    extension: json
+    i18n: true
+    summary: '{{name}}'
+    sortable_fields:
+      - name
+      - sortKey
+    fields:
+      - name: image
+        label: 画像
+        widget: image
+        i18n: duplicate
+        required: false
+      - name: name
+        label: 名前
+        widget: string
+        i18n: true
+      - name: description
+        label: プロフィール
+        widget: markdown
+        i18n: true
+        required: false
+      - name: link
+        label: リンク
+        widget: object
+        i18n: true
+        required: false
+        fields:
+          - name: url
+            label: URL
+            widget: string
+            i18n: true
+          - name: label
+            label: ラベル
+            widget: string
+            i18n: true
+      - name: sortKey
+        label: ソートキー
+        widget: number
+        i18n: duplicate
+        required: false
+        value_type: int
+        min: 0
+        default: 0
+  - name: pages
+    label: 固定ページ
+    i18n: true
+    editor:
+      preview: true
+    files:
+      - name: home
+        label: ホーム
+        file: src/lib/data/pages/home.json
+        i18n: true
+        fields:
+          - name: meta
+            label: メタデータ
+            widget: object
+            i18n: true
+            fields:
+              - name: pageTitle
+                label: ページタイトル
+                widget: string
+                i18n: true
+              - name: pageDescription
+                label: ページ説明文
+                widget: text
+                required: false
+                i18n: true
+              - name: pageImage
+                label: ソーシャル共有画像
+                widget: image
+                required: false
+                i18n: duplicate
+          - name: hero
+            label: ヒーロー
+            widget: object
+            i18n: true
+            fields:
+              - name: heading1
+                label: 見出し 1
+                widget: string
+                i18n: true
+              - name: heading2
+                label: 見出し 2
+                widget: string
+                i18n: true
+                required: false
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+          - name: projects
+            label: プロジェクト
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+          - name: news
+            label: ニュース
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+              - name: link
+                label: リンク
+                widget: object
+                i18n: true
+                required: false
+                fields:
+                  - name: url
+                    label: URL
+                    widget: string
+                    i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+          - name: contact
+            label: お問い合わせ
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+              - name: form
+                label: フォーム
+                widget: object
+                i18n: true
+                required: false
+                fields:
+                  - name: name
+                    label: 名前
+                    widget: string
+                    i18n: true
+                  - name: email
+                    label: メールアドレス
+                    widget: string
+                    i18n: true
+                  - name: message
+                    label: メッセージ
+                    widget: string
+                    i18n: true
+                  - name: send
+                    label: 送信
+                    widget: string
+                    i18n: true
+                  - name: clear
+                    label: クリア
+                    widget: string
+                    i18n: true
+      - name: about
+        label: 会社概要
+        file: src/lib/data/pages/about.json
+        i18n: true
+        fields:
+          - name: meta
+            label: メタデータ
+            widget: object
+            i18n: true
+            fields:
+              - name: pageTitle
+                label: ページタイトル
+                widget: string
+                i18n: true
+              - name: pageDescription
+                label: ページ説明文
+                widget: text
+                required: false
+                i18n: true
+              - name: pageImage
+                label: ソーシャル共有画像
+                widget: image
+                required: false
+                i18n: duplicate
+          - name: overview
+            label: 概要
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+              - name: name
+                label: 社名
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                  - name: value
+                    label: 内容
+                    widget: string
+                    i18n: true
+              - name: foundation
+                label: 設立
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: string
+                    i18n: true
+                    required: false
+              - name: address
+                label: 住所
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: string
+                    i18n: true
+                    required: false
+              - name: capital
+                label: 資本金
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: string
+                    i18n: true
+                    required: false
+              - name: contact
+                label: 連絡先
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: string
+                    i18n: true
+                    required: false
+              - name: businesses
+                label: 事業内容
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: markdown
+                    i18n: true
+                    required: false
+              - name: licenses
+                label: 登録資格
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: markdown
+                    i18n: true
+                    required: false
+              - name: certifications
+                label: 認証・許可
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: markdown
+                    i18n: true
+                    required: false
+              - name: customers
+                label: 主要取引先
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+                  - name: value
+                    label: 内容
+                    widget: markdown
+                    i18n: true
+                    required: false
+          - name: members
+            label: メンバー
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+      - name: cocosoco
+        label: ここそこ
+        file: src/lib/data/pages/cocosoco.json
+        i18n: true
+        fields:
+          - name: meta
+            label: メタデータ
+            widget: object
+            i18n: true
+            fields:
+              - name: pageTitle
+                label: ページタイトル
+                widget: string
+                i18n: true
+              - name: pageDescription
+                label: ページ説明文
+                widget: text
+                required: false
+                i18n: true
+              - name: pageImage
+                label: ソーシャル共有画像
+                widget: image
+                required: false
+                i18n: duplicate
+          - name: overview
+            label: 概要
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: body
+                label: 本文
+                widget: markdown
+                i18n: true
+                required: false
+              - name: image1
+                label: 画像 1
+                widget: object
+                i18n: true
+                required: false
+                fields:
+                  - name: url
+                    label: 画像
+                    widget: image
+                    i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+              - name: image2
+                label: 画像 2
+                widget: object
+                i18n: true
+                required: false
+                fields:
+                  - name: url
+                    label: 画像
+                    widget: image
+                    i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+              - name: video
+                label: 動画 URL
+                widget: object
+                i18n: true
+                required: false
+                fields:
+                  - name: id
+                    label: 動画 ID
+                    widget: string
+                    i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+                    required: false
+          - name: features
+            label: 特長
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: features
+                label: 特長
+                widget: list
+                i18n: duplicate
+                fields:
+                  - name: image
+                    label: 画像
+                    widget: image
+                    i18n: duplicate
+                  - name: name
+                    label: 名前
+                    widget: string
+                    i18n: true
+                  - name: description
+                    label: 説明
+                    widget: text
+                    i18n: true
+      - name: privacy
+        label: プライバシーポリシー
+        file: src/lib/data/pages/privacy.json
+        i18n: true
+        fields:
+          - name: meta
+            label: メタデータ
+            widget: object
+            i18n: true
+            fields:
+              - name: pageTitle
+                label: ページタイトル
+                widget: string
+                i18n: true
+              - name: pageDescription
+                label: ページ説明文
+                widget: text
+                required: false
+                i18n: true
+              - name: pageImage
+                label: ソーシャル共有画像
+                widget: image
+                required: false
+                i18n: duplicate
+          - name: policy
+            label: ポリシー
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: body
+                label: 本文
+                widget: markdown
+                i18n: true
+                required: false
+      - name: strings
+        label: その他文字列
+        file: src/lib/data/pages/_strings.json
+        i18n: true
+        fields:
+          - name: globalMeta
+            label: メタデータ
+            widget: object
+            i18n: true
+            fields:
+              - name: siteLogo
+                label: サイトロゴ
+                widget: image
+                i18n: duplicate
+              - name: siteName
+                label: サイトタイトル
+                widget: string
+                i18n: true
+              - name: siteDescription
+                label: サイト説明文
+                widget: string
+                i18n: true
+                required: false
+              - name: siteImage
+                label: サイトソーシャル共有画像
+                widget: image
+                i18n: true
+                required: false
+              - name: copyright
+                label: 著作権表記
+                widget: string
+                i18n: duplicate
+                required: false
+          - name: header
+            label: ヘッダー
+            widget: object
+            i18n: true
+            fields:
+              - name: backToHome
+                label: ホームへ戻る
+                widget: object
+                i18n: true
+                fields:
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+              - name: links
+                label: リンク
+                widget: list
+                i18n: true
+                fields:
+                  - name: url
+                    label: URL
+                    widget: string
+                    i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+          - name: footer
+            label: フッター
+            widget: object
+            i18n: true
+            fields:
+              - name: links
+                label: リンク
+                widget: list
+                i18n: true
+                fields:
+                  - name: url
+                    label: URL
+                    widget: string
+                    i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true

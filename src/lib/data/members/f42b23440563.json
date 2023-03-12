@@ -1,0 +1,28 @@
+{
+  "ja": {
+    "image": "/images/ueoka.jpg",
+    "name": "上岡 玲子（Ryoko Ueoka）",
+    "jobTitle": "代表取締役社長",
+    "description": "慶應義塾大学大学院政策・メディア研究科修了後，NTTヒューマンインタフェース研究所，米国衛星通信会社PanAm-Sat勤務を経て東京大学大学院工学系研究科先端学際工学専攻修了（博士（工学））．\n\n東京大学先端科学技術研究センター特任助教，産業技術総合研究所産総研特別研究員，九州大学大学院芸術工学研究院准教授を経て2020年にUXテクノロジーであらゆる人のウェルビーング向上の実現を目指して2020年nudge LAB設立．\n\n2021年（株）zeroinon設立．東京大学先端科学技術研究センター社会連携研究部門モビリティゼロプロジェクト　先端研客員研究員兼務．\n\n空間型コンピュータとしての主観的体験に特化したウェアラブルコンピュータの研究，技術とファッションを融合させた機能衣服・e-textileの研究, 身体や意識を拡張，顕在，制御することを目的としたインタフェースの研究に従事.情報処理学会インタラクション・インタラクティブ発表賞（2019,2020），バーチャルリアリティ学会論文賞（2013）グッドデザイン賞（2011），IEEE Int’l Symposium on Wearable Computer Juries Design Award（2008）等受賞，",
+    "sortKey": 1000,
+    "links": [
+      {
+        "url": "https://www.linkedin.com/in/r-ueoka/",
+        "label": "LinkedIn"
+      }
+    ]
+  },
+  "en": {
+    "image": "/images/ueoka.jpg",
+    "name": "Ryoko Ueoka",
+    "jobTitle": "Executive president/CEO",
+    "description": "Ph.D. (Engineering)",
+    "sortKey": 1000,
+    "links": [
+      {
+        "url": "https://www.linkedin.com/in/r-ueoka/",
+        "label": "LinkedIn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ja": {
+    "image": "/images/mob0cocosoco.png",
+    "name": "テレプレゼンスプラットフォーム（TPP）",
+    "description": "東京大学先端科学技術研究センターで2020年10月から開設した新しい時代のモビリティ（＝空間の移動）を，ゼロに立ち返り研究を行う社会連携研究部門「モビリティゼロ」で， 「ここそこ」をベースにした360度全天球型のオンラインビデオ会議ツールの開発を行いました．",
+    "link": {
+      "url": "https://www.rcast.u-tokyo.ac.jp/ja/news/report/20201001.html",
+      "label": "モビリティーゼロプロジェクト（外部リンク）"
+    },
+    "sortKey": 998
+  },
+  "en": {
+    "image": "/images/mob0cocosoco.png",
+    "name": "Telepresence Platform (TPP)",
+    "description": "We developed a 360 degrees online video conference tool that allows interactive pointing based on 'cocosoco' as a part of a project at Research Center for Advanced Science and Technology, the University of Tokyo.",
+    "link": {
+      "url": "https://www.rcast.u-tokyo.ac.jp/ja/news/report/20201001.html",
+      "label": "Mobility ZERO project (external link)"
+    },
+    "sortKey": 998
+  }
+}
