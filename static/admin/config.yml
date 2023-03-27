@@ -3,6 +3,7 @@ backend:
   repo: zero-in-on/zeroinon-web
   branch: main
   squash_merges: true
+  base_url: https://sveltia-cms-auth.britegrid.workers.dev
 
 media_folder: static/images
 public_folder: /images
