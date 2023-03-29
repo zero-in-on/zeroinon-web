@@ -6,7 +6,7 @@
     "overview": {
       "name": {
         "label": "会社名",
-        "value": "株式会社　zeroinon"
+        "value": "株式会社 zeroinon"
       },
       "foundation": {
         "label": "設立",
@@ -48,8 +48,8 @@
         "value": "zeroinon Inc."
       },
       "foundation": {
-        "label": "Founded",
-        "value": "June, 2021"
+        "label": "Founded in",
+        "value": "June 2021"
       },
       "contact": {
         "label": "Contact",
@@ -61,12 +61,16 @@
       },
       "licenses": {
         "value": "- Notified Telecommunications Carriers (Domestic): No. A-03-19511",
-        "label": "Registration Qualifications"
+        "label": "Registered Qualifications"
       },
       "certifications": {
         "label": ""
       },
-      "heading": "Company profile"
+      "heading": "Company Profile",
+      "capital": {
+        "label": "Capital",
+        "value": "4 million yen"
+      }
     },
     "members": {
       "heading": "Members"
