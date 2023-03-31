@@ -11,11 +11,11 @@
   },
   "en": {
     "image": "/images/pointing_feature.png",
-    "name": "cocosoco",
-    "description": "In May 2020, we developed a telepresence chat tool 'cocosoco' that allows users to talk using pointing icon. This improves the online videoconferencing experience at Corona Disaster.",
+    "name": "Cocosoco",
+    "description": "The prototype was created in May 2020 to improve the spatial online videoconferencing experience in the midst of the COVID-19 pandemic. As a telepresence chat tool that requires no special equipment, it makes it easier to collaborate with people at a distance to see a location without having to go there.",
     "link": {
       "url": "/en/cocosoco",
-      "label": "About cocosoco"
+      "label": "About Cocosoco"
     },
     "sortKey": 1000
   }

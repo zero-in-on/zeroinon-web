@@ -57,7 +57,7 @@
           "url": "/en#news"
         },
         {
-          "label": "Company profile",
+          "label": "Company Profile",
           "url": "/en/about"
         },
         {
@@ -66,7 +66,7 @@
         }
       ],
       "backToHome": {
-        "label": "Back to home"
+        "label": "Back to Home"
       }
     },
     "globalMeta": {

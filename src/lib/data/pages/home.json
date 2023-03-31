@@ -6,14 +6,14 @@
     "hero": {
       "heading1": "Updating the way we work in the age of 100 years of life",
       "heading2": "人生100年時代の働き方をアップデートする",
-      "description": "社名のzeroinon（ゼロイノン）は英語の熟語，zero in on （集中する，的を絞る）の造語です． 社名には，新型コロナウイルスの影響も後押しして，DXに代表されるITを前提とした社会基盤が必至となった現在，リアルとバーチャルが融合する社会基盤の構築を目指す，’zero in on social infrastructure building for coming xR society’ という意味を込めています．\n\nzeroinonは，デジタル社会を作り上げてきたX世代が高齢者になる数十年後，次世代の高齢者が，時間と知見を活かしながら金銭的，社会的なインセンティブを，仕事を通して持ち続けられることができる社会基盤を，デジタル技術を使って実現したいと考えています．\n\nそして，こうした社会基盤は次世代高齢者だけのものでなく，生き方，働き方に多様性を求めるすべての世代の人たちにとっても，年齢，性別，場所を問わず自分の時間を自分で管理しながら好きな仕事を長く続けられる基盤として役立つものになると考えています．"
+      "description": "社名のzeroinon（ゼロイノン）は英語の熟語，zero in on （集中する，的を絞る）の造語です． 社名には，新型コロナウイルスの影響も後押しして，DXに代表されるITを前提とした社会基盤が必至となった現在，リアルとバーチャルが融合する社会基盤の構築を目指す，‘zero in on social infrastructure building for coming xR society’という意味を込めています．\n\nzeroinonは，デジタル社会を作り上げてきたX世代が高齢者になる数十年後，次世代の高齢者が，時間と知見を活かしながら金銭的，社会的なインセンティブを，仕事を通して持ち続けられることができる社会基盤を，デジタル技術を使って実現したいと考えています．\n\nそして，こうした社会基盤は次世代高齢者だけのものでなく，生き方，働き方に多様性を求めるすべての世代の人たちにとっても，年齢，性別，場所を問わず自分の時間を自分で管理しながら好きな仕事を長く続けられる基盤として役立つものになると考えています．"
     },
     "projects": {
       "heading": "Works by zeroinon",
       "description": ""
     },
     "news": {
-      "heading": "News in zeroinon",
+      "heading": "News from zeroinon",
       "description": "Facebook pageにニュース，イベント情報を掲載しています．",
       "link": {
         "url": "https://www.facebook.com/zeroinon.inc",
@@ -27,7 +27,7 @@
         "name": "Name",
         "email": "Email",
         "message": "Message",
-        "send": "Send Message",
+        "send": "Submit",
         "clear": "Clear Form"
       }
     }
@@ -38,10 +38,10 @@
     },
     "hero": {
       "heading1": "Updating the way we work in the age of 100 years of life",
-      "description": "The company name, coined from the English idiom \"zero in on\" (to concentrate, to focus), implies the meaning of \"zero in on social infrastructure for the coming xR society.\"\n\nOur goal is to realize a telepresence platform with a highly accessible interface that anyone can use without stress, based on devices used by many people in that era, such as PCs and smartphones now, and that provides high experience value as an xR (cross reality) social infrastructure where the real and virtual worlds merge."
+      "description": "Our company name “zeroinon” was coined from the English idiom “zero in on” (to concentrate, to focus on). DX and other IT-based social infrastructures are now essential, especially due to the COVID-19 pandemic, and we aim to build social infrastructures that integrate the real and the virtual. The name implies our special focus on building social infrastructures for the coming xR society.\n\nOur goal is to use digital technology to realize a social infrastructure that will enable the next generation of seniors to maintain their financial and social incentives through their work, while utilizing their time and knowledge, in the coming decades as the Generation Xers who created the digital society become older.\n\nWe believe that such a social infrastructure will be useful not only for the next generation of elders, but also for people of all generations who seek diversity in the way they live and work, as a foundation that allows them to manage their own time and continue to work at their favorite jobs for a long time, regardless of age, gender, or location."
     },
     "projects": {
-      "heading": "Works by zeroinon",
+      "heading": "Our Works",
       "description": ""
     },
     "news": {
@@ -49,17 +49,17 @@
         "url": "https://www.facebook.com/zeroinon.inc",
         "label": "zeroinon Inc."
       },
-      "heading": "News in zeroinon",
-      "description": "New and events are posted on our Facebook page."
+      "heading": "What’s New",
+      "description": "Check out our Facebook page for the latest topics and events."
     },
     "contact": {
-      "heading": "Contact",
-      "description": "Please contact us from the contact form. An automatic e-mail will be sent to you right after you send a message from the form.",
+      "heading": "Contact Us",
+      "description": "To contact us, please fill out the contact form below. You will receive an automatic email shortly after submitting the contact form to confirm your inquiry.",
       "form": {
         "name": "Name",
         "email": "Email",
         "message": "Message",
-        "send": "Send Message",
+        "send": "Submit",
         "clear": "Clear Form"
       }
     }

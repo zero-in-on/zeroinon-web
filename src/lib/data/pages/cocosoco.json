@@ -6,7 +6,7 @@
     },
     "overview": {
       "heading": "テレプレゼンスチャットアプリ<br> 「ここそこ」とは",
-      "body": "ここそこはスマホやPCを使い，ライブ映像を共有しながら情報伝達を行う簡易テレプレゼンスツールです．\n\nライブ中継映像の中に指差しアイコンを表示する機能により，通常のオンラインビデオ会議ツールでは使えない，「ここ」や「そこ」「あれ」などの指示語を使った会話が可能です． \n 指示語を使うことで，あたかもその場に共存しながら自然な会話を楽しむ楽しむことができます．\n\nさらにデジタルならではの特長として中継映像の場所を位置情報として地図上にマッピングして 俯瞰的な場の共有や，遠くの場所をズームによって拡大しながらの会話や，ちょっとした関心・興味を匿名でLIKEできます．",
+      "body": "ここそこはスマホやPCを使い，ライブ映像を共有しながら情報伝達を行う簡易テレプレゼンスツールです．\n\nライブ中継映像の中に指差しアイコンを表示する機能により，通常のオンラインビデオ会議ツールでは使えない，「ここ」や「そこ」「あれ」などの指示語を使った会話が可能です．指示語を使うことで，あたかもその場に共存しながら自然な会話を楽しむ楽しむことができます．\n\nさらにデジタルならではの特長として中継映像の場所を位置情報として地図上にマッピングして 俯瞰的な場の共有や，遠くの場所をズームによって拡大しながらの会話や，ちょっとした関心・興味を匿名でLIKEできます．",
       "image1": {
         "url": "/images/cocosocofigure.png"
       },
@@ -28,7 +28,7 @@
         {
           "image": "/images/map_feature.png",
           "name": "地図表示",
-          "description": "ライブ中継映像と位置情報を同時に見ることで，主観視点と客観視点で空間把握が可能になります."
+          "description": "ライブ中継映像と位置情報を同時に見ることで，主観視点と客観視点で空間把握が可能になります．"
         },
         {
           "image": "/images/zoom_feature.png",
@@ -45,11 +45,20 @@
   },
   "en": {
     "meta": {
-      "pageTitle": "Telepresence chat app 'cocosoco'"
+      "pageTitle": "Cocosoco: Telepresence Chat App"
     },
     "overview": {
-      "heading": "Telepresence chat app<br>'cocosoco'",
-      "body": "Cocosoco is a video chat app whose name translates to “here and there” in English.\n\n In this app, there is a pointing function, which can be used to point to a space with demonstrative words, which is not possible in a conventional video chat app.\n\n It is designed to make it easier to share a space to encourage dialogue, even online, and to increase the sense of presence as if we were chatting in the same physical place."
+      "heading": "Cocosoco: Telepresence Chat App",
+      "body": "Cocosoco is a simple telepresence tool for communicating information while sharing live webcasts using a smartphone or laptop.\n\nThe ability to display pointing icons in the live video feed allows participants to indicate “here,” “there,” and “that” as a means of communication, which is not possible with conventional online videoconferencing tools. By using these demonstratives, users can enjoy a natural conversation as if they were in the same place.\n\nFurthermore, as features unique to a digital tool, it allows users to share a bird’s-eye view of a place by plotting the location of the live video on a map as location data, to engage in conversation while zooming in on distant locations, and to anonymously express a small interest or concern.",
+      "image1": {
+        "url": "/images/cocosocofigure.png"
+      },
+      "image2": {
+        "url": "/images/whatiscocosoco-2.png"
+      },
+      "video": {
+        "id": "RW6bOKuCoSg"
+      }
     },
     "features": {
       "heading": "Features",
@@ -57,22 +66,22 @@
         {
           "image": "/images/pointing_feature.png",
           "name": "Pointing",
-          "description": "Online conversation using pointing icons with directives such as \"here\" and \"there”. Pointing icons with face pictures so you can see who is pointing."
+          "description": "Pointing icons allow participants to communicate with each other using directives such as “here” and “there.” You can see who is pointing by looking at their avatar on the icon."
         },
         {
           "image": "/images/map_feature.png",
-          "name": "Map view",
-          "description": "Live streaming as well as geolocation enable spatial understanding from both subjective and objective perspectives."
+          "name": "Map View",
+          "description": "Viewing live broadcasting footage and geolocation information simultaneously enables spatial understanding from both subjective and objective perspectives."
         },
         {
           "image": "/images/zoom_feature.png",
           "name": "Zoom",
-          "description": "When the live streamer pinches out the screen focusing on the area he/she draws attention to viewer, the live view is also zoomed in."
+          "description": "When the live broadcaster pinches the screen out, the live image is also zoomed in. Whenever they want to draw attention to a distant location, they can point and talk while zooming in."
         },
         {
           "image": "/images/like_feature.png",
-          "name": "LIKE",
-          "description": "The LIKE function can be used to express a casual interest that does not require pointing."
+          "name": "Likes",
+          "description": "The LIKE function can be used to express casual interest that does not require pointing."
         }
       ]
     }
