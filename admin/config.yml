@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: zero-in-on/zeroinon-web
+  branch: main # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+# This line should *not* be indented
+media_folder: "/images" # Media files will be stored in the repo under images/
+
+collections:
+  - name: "pages"
+    laabel: "Pages"
+    files:
+    - name: "home"
+      label: "トップページ"
+      create: false
+      fields:
+        - {label: abstract, name: abstract, widget: text}
+        - {label: tagline, name: tagline, widget: string}
+    
