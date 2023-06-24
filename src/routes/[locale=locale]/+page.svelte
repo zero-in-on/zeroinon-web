@@ -1,8 +1,8 @@
 <script>
-  import { marked } from 'marked';
   import { page } from '$app/stores';
   import { allPages } from '$lib/services/marketing/pages';
   import { allProjects } from '$lib/services/marketing/projects';
+  import { marked } from 'marked';
 
   $: ({ locale = 'ja' } = $page.params);
   $: strings = allPages?.[locale]?.home;
@@ -72,7 +72,7 @@
           data-small-header="false"
           data-adapt-container-width="true"
           data-hide-cover="false"
-          data-show-facepile="true"
+          data-show-facepile="false"
         >
           <blockquote cite={strings?.news?.link?.url || ''} class="fb-xfbml-parse-ignore">
             <a href={strings?.news?.link?.url || ''}>{strings?.news?.link?.label || ''}</a>
@@ -84,8 +84,8 @@
         async
         defer
         crossorigin="anonymous"
-        src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v12.0"
-        nonce="mnCLY1PW"
+        src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v17.0"
+        nonce="9yTXnBhy"
       >
       </script>
     </div>
