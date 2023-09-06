@@ -1,0 +1,20 @@
+{
+  "ja": {
+    "hidden": false,
+    "date": "2023-09-05T00:00:00.000Z",
+    "title": "ここそこ",
+    "cover": "/images/pointing_feature.png",
+    "body": "ここそこができました",
+    "link": "",
+    "sortKey": 1
+  },
+  "en": {
+    "hidden": false,
+    "date": "2023-09-05T00:00:00.000Z",
+    "title": "cocosoco",
+    "cover": "/images/pointing_feature.png",
+    "body": "Here and there it is done.",
+    "link": "",
+    "sortKey": 1
+  }
+}

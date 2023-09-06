@@ -1,0 +1,18 @@
+{
+  "ja": {
+    "hidden": false,
+    "date": "2023-09-02T00:00:00.000Z",
+    "title": "test",
+    "cover": "/images/comado.png",
+    "body": "test",
+    "sortKey": 0
+  },
+  "en": {
+    "hidden": false,
+    "date": "2023-09-02T00:00:00.000Z",
+    "title": "test",
+    "cover": "/images/comado.png",
+    "body": "test",
+    "sortKey": 0
+  }
+}

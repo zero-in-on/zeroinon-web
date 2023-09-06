@@ -56,7 +56,7 @@
 </section>
 
 <!-- Second -->
-<section id="news" class="main">
+<!-- <section id="news" class="main">
   <header>
     <div class="container">
       <h2>{strings?.news?.heading || ''}</h2>
@@ -90,7 +90,7 @@
       </script>
     </div>
   </header>
-</section>
+</section> -->
 
 <!-- Fourth -->
 <section id="contact" class="main">

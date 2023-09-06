@@ -12,7 +12,7 @@
         },
         {
           "label": "News",
-          "url": "/ja#news"
+          "url": "/ja/news"
         },
         {
           "label": "会社概要",
@@ -54,7 +54,7 @@
         },
         {
           "label": "News",
-          "url": "/en#news"
+          "url": "/en/news"
         },
         {
           "label": "Company Profile",

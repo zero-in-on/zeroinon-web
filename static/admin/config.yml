@@ -15,6 +15,55 @@ i18n:
   locales: [ja, en]
 
 collections:
+  - name: news
+    label: お知らせ
+    icon: info
+    create: true
+    folder: src/lib/data/news/
+    media_folder: static/images/news
+    public_folder: /images/news
+    slug: '{{uuid_short}}'
+    extension: json
+    i18n: true
+    summary: "{{date|date('YYY-MM-DD')}} - {{title}} {{hidden | ternary('(非公開)', '')}}"
+    fields:
+      - name: hidden
+        label: 非公開にする
+        widget: boolean
+        default: false
+        i18n: duplicate
+      - name: date
+        label: 日付
+        widget: datetime
+        time_format: false
+        picker_utc: true
+        i18n: duplicate
+      - name: title
+        label: タイトル
+        widget: string
+        i18n: true
+      - name: cover
+        label: カバー写真
+        widget: image
+        required: false
+        i18n: duplicate
+      - name: body
+        label: 本文
+        widget: markdown
+        required: false
+        i18n: true
+      - name: link
+        label: リンク
+        widget: string
+        required: false
+      - name: sortKey
+        label: ソートキー
+        widget: number
+        i18n: duplicate
+        required: false
+        value_type: int
+        min: 0
+        default: 0
   - name: members
     label: メンバー
     create: true
@@ -177,34 +226,6 @@ collections:
                 widget: markdown
                 i18n: true
                 required: false
-          - name: news
-            label: ニュース
-            widget: object
-            i18n: true
-            fields:
-              - name: heading
-                label: 見出し
-                widget: string
-                i18n: true
-              - name: description
-                label: 説明文
-                widget: markdown
-                i18n: true
-                required: false
-              - name: link
-                label: リンク
-                widget: object
-                i18n: true
-                required: false
-                fields:
-                  - name: url
-                    label: URL
-                    widget: string
-                    i18n: true
-                  - name: label
-                    label: ラベル
-                    widget: string
-                    i18n: true
           - name: contact
             label: お問い合わせ
             widget: object
@@ -577,6 +598,34 @@ collections:
                 widget: markdown
                 i18n: true
                 required: false
+      - name: news
+        label: ニュース
+        file: src/lib/data/pages/news.json
+        i18n: true
+        fields:
+          - name: meta
+            label: メタデータ
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: description
+                label: 説明文
+                widget: markdown
+                i18n: true
+                required: false
+          - name: pageTitle
+            label: ページタイトル
+            widget: string
+            i18n: true
+          - name: pageDescription
+            label: ページ説明文
+            widget: text
+            required: false
+            i18n: true
       - name: strings
         label: その他文字列
         file: src/lib/data/pages/_strings.json
