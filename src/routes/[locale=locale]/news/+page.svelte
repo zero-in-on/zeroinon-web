@@ -20,29 +20,27 @@
 </svelte:head>
 
 <section id="first" class="main">
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <header>
-            <h3>{strings?.meta?.heading || 'hi'}</h3>
-          </header>
-        </div>
-        <div class="col-3 col-12-narrow">
-          <Grid --grid-item-size="320px">
-            {#each Object.entries(allNews[locale]) as [slug, { title, date, cover }] (slug)}
-              <GridItem
-                link="/{locale}/news/{slug}"
-                image={cover}
-                {title}
-                summary={formatDate(date, locale)}
-              />
-            {/each}
-          </Grid>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <header>
+          <h3>{strings?.meta?.heading || ''}</h3>
+        </header>
+      </div>
+      <div class="col-12">
+        <Grid --grid-item-size="320px">
+          {#each Object.entries(allNews[locale]).sort((a, b) => new Date(b[1].date).getTime() - new Date(a[1].date).getTime()) as [slug, { title, date, cover }] (slug)}
+            <GridItem
+              link="/{locale}/news/{slug}"
+              image={cover}
+              {title}
+              summary={formatDate(date, locale)}
+            />
+          {/each}
+        </Grid>
       </div>
     </div>
-  </header>
+  </div>
 </section>
 
 <style lang="scss">

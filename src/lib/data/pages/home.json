@@ -13,7 +13,7 @@
       "description": ""
     },
     "news": {
-      "heading": "News from zeroinon",
+      "heading": "最新ニュース",
       "description": "Facebook pageにニュース，イベント情報を掲載しています．",
       "link": {
         "url": "https://www.facebook.com/zeroinon.inc",
@@ -45,6 +45,7 @@
       "description": ""
     },
     "news": {
+      "heading": "What’s New",
       "link": {
         "url": "https://www.facebook.com/zeroinon.inc",
         "label": "zeroinon Inc."

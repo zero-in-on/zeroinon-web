@@ -20,8 +20,7 @@ collections:
     icon: info
     create: true
     folder: src/lib/data/news/
-    media_folder: static/images/news
-    public_folder: /images/news
+    media_folder: static/uploads/news/
     slug: '{{uuid_short}}'
     extension: json
     i18n: true
@@ -56,6 +55,7 @@ collections:
         label: リンク
         widget: string
         required: false
+        i18n: duplicate
       - name: sortKey
         label: ソートキー
         widget: number
@@ -700,6 +700,37 @@ collections:
                     label: URL
                     widget: string
                     i18n: true
+                  - name: label
+                    label: ラベル
+                    widget: string
+                    i18n: true
+          - name: toNews
+            label: お知らせ一覧へ
+            widget: object
+            i18n: true
+            fields:
+              - name: heading
+                label: 見出し
+                widget: string
+                i18n: true
+              - name: url
+                label: リンク
+                widget: string
+                i18n: true
+          - name: SNS
+            label: SNSリンク
+            widget: object
+            i18n: true
+            fields:
+              - name: links
+                label: リンク
+                widget: list
+                i18n: true
+                fields:
+                  - name: url
+                    label: facebook
+                    widget: string
+                    i18n: duplicate
                   - name: label
                     label: ラベル
                     widget: string

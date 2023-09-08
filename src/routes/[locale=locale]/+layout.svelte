@@ -19,12 +19,16 @@
   />
 
   <!-- Scripts -->
+
+  <!-- Scripts -->
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/jquery.scrolly.min.js"></script>
   <script src="/assets/js/browser.min.js"></script>
   <script src="/assets/js/breakpoints.min.js"></script>
   <script src="/assets/js/util.js"></script>
   <script src="/assets/js/main.js"></script>
+
+  <!-- Google tag (gtag.js) -->
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3LZ3GEM8Z"></script>
@@ -81,15 +85,13 @@
 
 <!-- Footer -->
 <section id="footer">
-  <!--
   <ul class="icons">
-      <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-      <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-      <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-      <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-      <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+    {#each strings?.SNS?.links || [] as { url, label } (url)}
+      <li>
+        <a href={url} class="icon brands fa-facebook-f"><span class="label">Facebook </span></a>
+      </li>
+    {/each}
   </ul>
-  -->
   <div class="copyright">
     <ul class="menu">
       <li>{strings?.globalMeta?.copyright || ''}</li>
