@@ -1,0 +1,20 @@
+{
+  "ja": {
+    "hidden": false,
+    "date": "2022-10-06T00:00:00.000Z",
+    "title": "CoMADOを使った実証実験の成果が電子情報通信学会で研究発表されます．",
+    "cover": "/images/スクリーンショット 2023-09-08 18.30.09.png",
+    "body": "2022年10月6-7日開催の電子情報通信学会MVE研究会で，昨年度KDDI総合研究所で実施したCoMADOを使ったチームエスノグラフィーの実証実験について発表されます．\n「リアルタイムに関心を共有するビデオ通話システムを用いたチーム・エスノグラフィの実践」\nMVE研究会講演論文詳細：",
+    "link": "https://ken.ieice.org/ken/paper/20221007dCmn/?fbclid=IwAR13_ldcHM8jFDI9R2kSU9IQZrOUOUCE51uRGcuyVvplU4Agl1kg2_e95Ew",
+    "sortKey": 0
+  },
+  "en": {
+    "hidden": false,
+    "date": "2022-10-06T00:00:00.000Z",
+    "title": "CoMADO related research will be presented at the IEICE.",
+    "cover": "/images/スクリーンショット 2023-09-08 18.30.09.png",
+    "body": "At the IEICE MVE Workshop held on October 6-7, 2022, a presentation will be given on the team ethnography demonstration experiment using CoMADO conducted last year at KDDI  Laboratories.\nThe paper is titled \"Practical Application of Team Ethnography Using a Real-Time Interest-Sharing Video Calling System.\nDetails :",
+    "link": "https://ken.ieice.org/ken/paper/20221007dCmn/?fbclid=IwAR13_ldcHM8jFDI9R2kSU9IQZrOUOUCE51uRGcuyVvplU4Agl1kg2_e95Ew",
+    "sortKey": 0
+  }
+}

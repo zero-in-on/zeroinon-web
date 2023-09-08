@@ -1,0 +1,20 @@
+{
+  "ja": {
+    "hidden": false,
+    "date": "2023-09-07T00:00:00.000Z",
+    "title": "第28会日本バーチャルリアリティ学会で発表します．",
+    "cover": "/images/vr-ueoka.jpg",
+    "body": "CoMADOの特徴はオンラインでも「ここ」や「そこ」といった指示語が使える指差し機能を備えていることです．指差しで得られる情報の価値と応用について，CoMADOで記録した情報の定量化やAI要約から考察したものを日本バーチャルリアリティ学会の年次大会で発表します．\n\n発表情報：\n\n2023年9月13日　2B1-03「テレプセゼンスチャットアプリにおける指差しの情報価値と応用についての考察」",
+    "link": "https://conference.vrsj.org/ac2023/index.html",
+    "sortKey": 0
+  },
+  "en": {
+    "hidden": false,
+    "date": "2023-09-07T00:00:00.000Z",
+    "title": "Giving a presentation at the 28th Virtual Reality Society of Japan Conference.",
+    "cover": "/images/vr-ueoka.jpg",
+    "body": "CoMADO is characterized by its online pointing functionality, which allows the use of \"here\" and \"there\" as well as other directional words. The value and application of the information obtained by pointing will be discussed based on the quantification and AI summary of the information recorded by CoMADO, and will be presented at the annual conference of the Virtual Reality Society of Japan.\n\nPresentation information:\n\nSeptember 13, 2B1-03 \"A Study of the Information Value of Pointing and its Applied Value in Telepresence Chat Application\"",
+    "link": "https://conference.vrsj.org/ac2023/index.html",
+    "sortKey": 0
+  }
+}

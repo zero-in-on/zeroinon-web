@@ -1,11 +1,14 @@
 <script>
   import { page } from '$app/stores';
+  import { formatDate } from '$lib/services/i18n';
+  import { allNews } from '$lib/services/marketing/news';
   import { allPages } from '$lib/services/marketing/pages';
   import { allProjects } from '$lib/services/marketing/projects';
   import { marked } from 'marked';
 
   $: ({ locale = 'ja' } = $page.params);
   $: strings = allPages?.[locale]?.home;
+  $: links = allPages?.[locale]?._strings;
 </script>
 
 <!-- Header -->
@@ -26,6 +29,22 @@
       {@html marked.parse(strings?.hero?.description || '')}
     </div>
   </header>
+  <section class="container news">
+    <h2>{strings?.news?.heading || ''}</h2>
+    {#each Object.entries(allNews[locale])
+      .sort((a, b) => new Date(b[1].date).getTime() - new Date(a[1].date).getTime())
+      .slice(0, 3) as [slug, { title, date, cover }] (slug)}
+      <section>
+        <header>
+          <p><time datetime={date}>{formatDate(date, locale)}</time></p>
+          <h3><a href="/{locale}/news/{slug}">{title}</a></h3>
+        </header>
+      </section>
+    {/each}
+
+    <h3><a href={links?.toNews?.url}>{links?.toNews?.heading}</a></h3>
+  </section>
+
   <div id="works" class="content dark style5 featured">
     <div class="container">
       <div class="row">
@@ -56,7 +75,7 @@
 </section>
 
 <!-- Second -->
-<section id="news" class="main">
+<!-- <section id="news" class="main">
   <header>
     <div class="container">
       <h2>{strings?.news?.heading || ''}</h2>
@@ -90,7 +109,7 @@
       </script>
     </div>
   </header>
-</section>
+</section> -->
 
 <!-- Fourth -->
 <section id="contact" class="main">
@@ -158,6 +177,31 @@
   #intro {
     :global(p:not(:first-child)) {
       margin-top: 1.5em;
+    }
+  }
+
+  .news {
+    section {
+      margin: 16px 0;
+    }
+    h2 {
+      text-align: center;
+      margin: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1.75;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.75;
+    }
+
+    p {
+      margin: 0;
+      color: #171717;
+      font-size: 14px;
     }
   }
 </style>
