@@ -8,7 +8,6 @@
 
   $: ({ locale = 'ja' } = $page.params);
   $: strings = allPages?.[locale]?.news;
-  $: news = allNews?.[locale];
 </script>
 
 <svelte:head>
