@@ -20,7 +20,8 @@ collections:
     icon: info
     create: true
     folder: src/lib/data/news/
-    media_folder: static/uploads/news/
+    media_folder: /static/images/news
+    public_folder: /images/news
     slug: '{{uuid_short}}'
     extension: json
     i18n: true
