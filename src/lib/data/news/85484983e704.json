@@ -1,6 +1,6 @@
 {
   "ja": {
-    "hidden": true,
+    "hidden": false,
     "date": "2024-02-22",
     "title": "noteでワークスタイル探訪Vol.6を公開しました",
     "cover": "/images/news/rectangle_large_type_2_ad4f25ef69a9be5649a5e85fa8dc0f78.webp",
@@ -9,7 +9,7 @@
     "sortKey": 0
   },
   "en": {
-    "hidden": true,
+    "hidden": false,
     "date": "2024-02-22",
     "title": "Workstyle Exploration Vol. 6 is now available on NOTE",
     "cover": "/images/news/rectangle_large_type_2_ad4f25ef69a9be5649a5e85fa8dc0f78.webp",
