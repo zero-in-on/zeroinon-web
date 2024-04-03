@@ -345,7 +345,7 @@ header h3,
 header h4,
 header h5,
 header h6 {
-    margin: 0;
+    margin: 2em 2em 0.5em 0;
 }
 
 header p {
