@@ -345,13 +345,13 @@ header h3,
 header h4,
 header h5,
 header h6 {
-    margin: 2em 2em 0.5em 0;
+    margin: 0;
 }
 
 header p {
     display: block;
     margin: 0;
-    padding: 0.25em 0 0.5em 0;
+    padding: 0.1em 0 0.1em 0;
     text-align: justify;
 }
 
@@ -2437,6 +2437,7 @@ button.alt:hover,
     h6,
     header>p {
         text-align: center;
+        color: #171717;
     }
     /* Sections/Article */
     section,
