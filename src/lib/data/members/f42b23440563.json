@@ -3,26 +3,26 @@
     "image": "/images/ueoka.jpg",
     "name": "上岡 玲子（Ryoko Ueoka）",
     "jobTitle": "代表取締役社長",
-    "description": "慶應義塾大学大学院政策・メディア研究科修了後，NTTヒューマンインタフェース研究所，米国衛星通信会社PanAmSat勤務を経て東京大学大学院工学系研究科先端学際工学専攻修了（博士（工学））．\n\n東京大学先端科学技術研究センター特任助教，産業技術総合研究所産総研特別研究員，九州大学大学院芸術工学研究院准教授を経て2020年にUXテクノロジーであらゆる人のウェルビーング向上の実現を目指してnudge LAB設立．\n\n2021年（株）zeroinon設立．東京大学先端科学技術研究センター社会連携研究部門モビリティゼロプロジェクト　先端研客員研究員兼務．\n\n空間型コンピュータとしての主観的体験に特化したウェアラブルコンピュータの研究，技術とファッションを融合させた機能衣服・e-textileの研究，身体や意識を拡張，顕在，制御することを目的としたインタフェースの研究に従事.情報処理学会インタラクション・インタラクティブ発表賞（2019，2020），バーチャルリアリティ学会論文賞（2013）グッドデザイン賞（2011），IEEE Int’l Symposium on Wearable Computer Juries Design Award（2008）等受賞．",
-    "sortKey": 1000,
     "links": [
       {
         "url": "https://www.linkedin.com/in/r-ueoka/",
         "label": "LinkedIn"
       }
-    ]
+    ],
+    "description": "慶應義塾大学大学院政策・メディア研究科修了後，NTTヒューマンインタフェース研究所，米国衛星通信会社PanAmSat勤務を経て東京大学大学院工学系研究科先端学際工学専攻修了（博士（工学））．\n\n東京大学先端科学技術研究センター特任助教，産業技術総合研究所産総研特別研究員，九州大学大学院芸術工学研究院准教授を経て2020年にUXテクノロジーであらゆる人のウェルビーング向上の実現を目指してnudge LAB設立, 2021年（株）zeroinonを設立し代表取締役就任．\n\n空間型コンピュータとしての主観的体験に特化したウェアラブルコンピュータの研究，技術とファッションを融合させた機能衣服・e-textileの研究，身体や意識を拡張，顕在，制御することを目的としたインタフェースの研究に従事.情報処理学会インタラクション・インタラクティブ発表賞（2019，2020），バーチャルリアリティ学会論文賞（2013）グッドデザイン賞（2011），IEEE Int’l Symposium on Wearable Computer Juries Design Award（2008）等受賞．",
+    "sortKey": 1000
   },
   "en": {
     "image": "/images/ueoka.jpg",
     "name": "Ryoko Ueoka",
     "jobTitle": "Executive President & CEO",
-    "description": "After graduating from the Graduate School of Media and Governance at Keio University, she worked at NTT Human Interface Laboratories and PanAmSat, a U.S. satellite communications company, before receiving her Ph.D. from the Graduate School of Engineering, Department of Advanced Interdisciplinary Studies, University of Tokyo.\n\nAfter working as a project assistant professor at the Research Center for Advanced Science and Technology, University of Tokyo, a special researcher at the National Institute of Advanced Industrial Science and Technology, and an associate professor at the Graduate School of Design, Kyushu University, she established nudge LAB in 2020 to improve the well-being of people everywhere through UX technology.\n\nIn 2021, she founded zeroinon, Inc. She is also a visiting researcher of the Mobility Zero Project at the Research Center for Advanced Science and Technology, University of Tokyo.\n\nShe has been involved in research on wearable computers that specialize in subjective experience as spatial computers, research on e-textiles, functional gears that blend technology and fashion, and research on interfaces that aim to extend, reveal, and control the body and consciousness. Her awards include the Interaction and Interactive Presentation Award from the Information Processing Society of Japan (2019, 2020), the Virtual Reality Society of Japan Paper Award (2013), the Good Design Award (2011), and the IEEE Int'l Symposium on Wearable Computer Juries Design Award (2008).",
-    "sortKey": 1000,
     "links": [
       {
         "url": "https://www.linkedin.com/in/r-ueoka/",
         "label": "LinkedIn"
       }
-    ]
+    ],
+    "description": "After graduating from the Graduate School of Media and Governance at Keio University, she worked at NTT Human Interface Laboratories and PanAmSat, a U.S. satellite communications company, before receiving her Ph.D. from the Graduate School of Engineering, Department of Advanced Interdisciplinary Studies, University of Tokyo.\n\nAfter working as a project assistant professor at the Research Center for Advanced Science and Technology, University of Tokyo, a special researcher at the National Institute of Advanced Industrial Science and Technology, and an associate professor at the Graduate School of Design, Kyushu University, she established nudge LAB in 2020 to improve the well-being of people everywhere through UX technology and  founded zeroinon, Inc in 2021.\n\nShe has been involved in research on wearable computers that specialize in subjective experience as spatial computers, research on e-textiles, functional gears that blend technology and fashion, and research on interfaces that aim to extend, reveal, and control the body and consciousness. Her awards include the Interaction and Interactive Presentation Award from the Information Processing Society of Japan (2019, 2020), the Virtual Reality Society of Japan Paper Award (2013), the Good Design Award (2011), and the IEEE Int'l Symposium on Wearable Computer Juries Design Award (2008).",
+    "sortKey": 1000
   }
 }
