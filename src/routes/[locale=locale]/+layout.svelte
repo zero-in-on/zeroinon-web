@@ -21,6 +21,7 @@
   <!-- Scripts -->
 
   <!-- Scripts -->
+  <!-- Scripts -->
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/jquery.scrolly.min.js"></script>
   <script src="/assets/js/browser.min.js"></script>
@@ -30,6 +31,7 @@
 
   <!-- Google tag (gtag.js) -->
 
+  <!-- Google tag (gtag.js) -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3LZ3GEM8Z"></script>
   <script>
