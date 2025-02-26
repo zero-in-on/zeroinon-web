@@ -223,7 +223,7 @@ h4,
 h5,
 h6 {
     color: #171717;
-    margin: 0 0 1em 0;
+    margin: 10px;
     font-weight: 100;
     line-height: 1.5em;
 }
@@ -345,7 +345,7 @@ header h3,
 header h4,
 header h5,
 header h6 {
-    margin: 0;
+    margin: 10px;
 }
 
 header p {
