@@ -20,6 +20,7 @@
 <style lang="scss">
   section {
     aspect-ratio: 1 / 1;
+    border-radius: 20px;
 
     a {
       position: relative;
@@ -30,6 +31,7 @@
       text-decoration: none;
       overflow: hidden;
       box-shadow: 0 0 8px #0003;
+      border-radius: inherit;
 
       &:hover,
       &:focus {
@@ -46,6 +48,7 @@
       height: 100%;
       object-fit: cover;
       transition: transform 0.5s;
+      border-radius: inherit;
 
       &:not([src]) {
         background-image: linear-gradient(to bottom, #484848, #888);
@@ -57,6 +60,7 @@
       inset: auto 0 0;
       background: #fff9;
       padding: 16px;
+      border-radius: inherit;
 
       h3 {
         display: -webkit-box;
