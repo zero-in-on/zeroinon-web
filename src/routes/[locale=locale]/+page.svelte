@@ -1,10 +1,10 @@
 <script>
+  import { marked } from 'marked';
   import { page } from '$app/stores';
   import { formatDate } from '$lib/services/i18n';
   import { allNews } from '$lib/services/marketing/news';
   import { allPages } from '$lib/services/marketing/pages';
   import { allProjects } from '$lib/services/marketing/projects';
-  import { marked } from 'marked';
 
   $: ({ locale = 'ja' } = $page.params);
   $: strings = allPages?.[locale]?.home;
@@ -57,7 +57,9 @@
           <div class="col-4 col-12-narrow">
             <section>
               <span class="feature-icon">
-                <a href={link.url}><img src={image} alt={name} width="100%" /></a>
+                <a href={link.url}
+                  ><img src={image} alt={name} class="rounded-image" width="100%" /></a
+                >
               </span>
               <header>
                 <h3>{name}</h3>
@@ -74,44 +76,6 @@
   </div>
 </section>
 
-<!-- Second -->
-<!-- <section id="news" class="main">
-  <header>
-    <div class="container">
-      <h2>{strings?.news?.heading || ''}</h2>
-      {@html marked.parse(strings?.news?.description || '')}
-      <br />
-      <center>
-        <div
-          class="fb-page"
-          data-href={strings?.news?.link?.url || ''}
-          data-tabs="timeline"
-          data-width="500"
-          data-height="380"
-          data-small-header="false"
-          data-adapt-container-width="true"
-          data-hide-cover="false"
-          data-show-facepile="false"
-        >
-          <blockquote cite={strings?.news?.link?.url || ''} class="fb-xfbml-parse-ignore">
-            <a href={strings?.news?.link?.url || ''}>{strings?.news?.link?.label || ''}</a>
-          </blockquote>
-        </div>
-      </center>
-      <div id="fb-root" />
-      <script
-        async
-        defer
-        crossorigin="anonymous"
-        src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v17.0"
-        nonce="9yTXnBhy"
-      >
-      </script>
-    </div>
-  </header>
-</section> -->
-
-<!-- Fourth -->
 <section id="contact" class="main">
   <div class="content dark style1 featured">
     <header>
@@ -203,5 +167,9 @@
       color: #171717;
       font-size: 14px;
     }
+  }
+
+  .rounded-image {
+    border-radius: 20px;
   }
 </style>
