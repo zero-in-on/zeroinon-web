@@ -1,16 +1,16 @@
 {
   "ja": {
-    "name": "赤塚大典（Daisuke Akatsuka）",
-    "jobTitle": "取締役副社長 / CTO",
-    "description": "都立航空工業高等専門学校在籍中から4輪レーサーを目指すも断念．蕎麦屋，溶接屋を経てプログラマになる．2003年IPA未踏ユース（スーパークリエイタ），2006年IPA未踏ソフトウェア創造事業に採択．2011年慶應義塾大学大学院政策・メディア研究科修了．\n\n現在は（株）Birchillに所属し，ウェブブラウザFirefoxの特にSearch moduleおよびDeveloper Toolsの開発に従事．2021年（株）zeroinon設立．グッドデザイン賞（2008年、2014年），慶應義塾大学政策・メディア研究科相磯賞（2011年），ワークショップコレクション最優秀賞（2015年）など受賞．",
     "image": "/images/akatsuka.jpg",
-    "sortKey": 999
+    "name": "赤塚大典（Daisuke Akatsuka）",
+    "jobTitle": "代表取締役社長 / CEO",
+    "description": "都立航空工業高等専門学校在籍中から4輪レーサーを目指すも断念．蕎麦屋，溶接屋を経てプログラマになる．2003年IPA未踏ユース（スーパークリエイタ），2006年IPA未踏ソフトウェア創造事業に採択．2011年慶應義塾大学大学院政策・メディア研究科修了．\n\n現在は（株）Birchillに所属し，ウェブブラウザFirefoxの特にSearch moduleおよびDeveloper Toolsの開発に従事．2021年（株）zeroinon設立．グッドデザイン賞（2008年、2014年），慶應義塾大学政策・メディア研究科相磯賞（2011年），ワークショップコレクション最優秀賞（2015年）など受賞．",
+    "sortKey": 1001
   },
   "en": {
+    "image": "/images/akatsuka.jpg",
     "name": "Daisuke Akatsuka",
     "jobTitle": "Executive VP & CTO",
-    "image": "/images/akatsuka.jpg",
-    "sortKey": 999,
-    "description": "While attending the Tokyo Metropolitan College of Aeronautical Engineering, he gave up his goal of becoming a 4-wheel racer. He later became a programmer after working at a noodle restaurant and a welding shop, and was selected as an IPA Unexplored Field Youth (Super Creator) in 2003 and an IPA Unexplored Software Creation Project in 2006. He completed the Graduate School of Media and Governance at Keio University in 2011.\n\nHe is currently a member of Birchill Inc., specifically responsible for the development of the search module and developer tools in the Firefox web browser. He founded zeroinon Inc. in 2021. He has received the Good Design Award (2008, 2014), the Aiso Award from the Graduate School of Media and Governance at Keio University (2011), and the Workshop Collection Grand Prize (2015), among others."
+    "description": "While attending the Tokyo Metropolitan College of Aeronautical Engineering, he gave up his goal of becoming a 4-wheel racer. He later became a programmer after working at a noodle restaurant and a welding shop, and was selected as an IPA Unexplored Field Youth (Super Creator) in 2003 and an IPA Unexplored Software Creation Project in 2006. He completed the Graduate School of Media and Governance at Keio University in 2011.\n\nHe is currently a member of Birchill Inc., specifically responsible for the development of the search module and developer tools in the Firefox web browser. He founded zeroinon Inc. in 2021. He has received the Good Design Award (2008, 2014), the Aiso Award from the Graduate School of Media and Governance at Keio University (2011), and the Workshop Collection Grand Prize (2015), among others.",
+    "sortKey": 1001
   }
 }
